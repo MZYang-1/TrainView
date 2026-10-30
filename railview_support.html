@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RailView 技术支持</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.8;
+        }
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; letter-spacing: -0.5px; }
+        .header p { font-size: 1.1em; opacity: 0.9; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        .section {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        .section h2 {
+            font-size: 1.4em;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+        }
+        .section p { margin-bottom: 12px; color: #555; }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+        .contact-item .icon {
+            width: 40px;
+            height: 40px;
+            background: #3498db;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 1.2em;
+            flex-shrink: 0;
+        }
+        .contact-item a { color: #3498db; text-decoration: none; }
+        .faq-item { margin-bottom: 20px; }
+        .faq-item h3 { font-size: 1.1em; color: #2c3e50; margin-bottom: 8px; }
+        .faq-item p { color: #666; font-size: 0.95em; }
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #999;
+            font-size: 0.9em;
+        }
+        .badge {
+            display: inline-block;
+            background: #e8f4fd;
+            color: #3498db;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>RailView 技术支持</h1>
+        <p>坐在行驶列车里，看窗外风景流动</p>
+    </div>
+    <div class="container">
+        <div class="section">
+            <h2>联系我们</h2>
+            <div class="contact-item">
+                <div class="icon">✉</div>
+                <div>
+                    <strong>技术支持邮箱</strong><br>
+                    <a href="mailto:trainview@163.com">trainview@163.com</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="icon">🌐</div>
+                <div>
+                    <strong>官方网站</strong><br>
+                    <a href="https://www.railview.app">https://www.railview.app</a>
+                </div>
+            </div>
+            <p>我们通常在 1-2 个工作日内回复您的邮件，感谢您的耐心等候。</p>
+        </div>
+
+        <div class="section">
+            <h2>常见问题</h2>
+            <div class="faq-item">
+                <h3>Q: App 支持哪些 iOS 版本？</h3>
+                <p>RailView 支持 iOS 13.0 及以上版本，兼容 iPhone 6s 及更新机型。</p>
+            </div>
+            <div class="faq-item">
+                <h3>Q: 购买线路包后可以在多台设备使用吗？</h3>
+                <p>是的，通过 Apple ID 的 App 购买记录恢复功能，您可以在同一 Apple ID 下的多台设备上恢复已购内容。</p>
+            </div>
+            <div class="faq-item">
+                <h3>Q: App 支持后台播放和锁屏显示吗？</h3>
+                <p>支持。RailView 可在锁屏和后台持续播放风景画面，让您在通勤或睡前随时享受沉浸式体验。</p>
+            </div>
+            <div class="faq-item">
+                <h3>Q: 如何反馈 Bug 或提出建议？</h3>
+                <p>请发送邮件至 support@railview.app，或在 App Store 评价中详细描述您的问题，我们会尽快跟进处理。</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>版本信息</h2>
+            <p>
+                <span class="badge">当前版本</span> v1.0
+            </p>
+            <p>
+                <span class="badge">平台</span> iOS
+            </p>
+            <p>
+                <span class="badge">技术栈</span> Flutter
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2026 RailView. All rights reserved.</p>
+    </div>
+</body>
+</html>
